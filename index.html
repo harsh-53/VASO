@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- js  swiper cdn  -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <!-- font awesome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+   <!-- play button  -->
+   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+</head>
+<body>
+    <!-- navbar  -->
+     <nav class="sticky-top">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-4   justify-content-evenly pt-2 bg-dark d-sm-none d-md-block d-none">
+                
+                    <ul class="navbar">
+                        <li><a href="" class="text-decoration-none text-white">About</a></li>
+                        <li><a href="" class="text-decoration-none text-white">Shop</a></li>
+                        <li><a href="" class="text-decoration-none text-white ">Pages</a></li>
+                        
+                    </ul>
+                    <!-- <p>about</p>
+                    <p>about</p>
+                    <p>about</p> -->
+                
+            </div>
+            <div class="col-md-4  text-center bg-warning">
+                <img src="img/main-logo.png" alt="">
+            </div>
+            <div class="col-md-3  d-flex  justify-content-evenly pt-2 bg-dark d-sm-none d-md-block d-none">
+                <!-- <span class="d-flex gap-5 ">
+                <p>srerch</p>
+                <p>srerch</p>
+                <p>srerch</p>
+            </span> -->
+            <ul class="navbar">
+                <li><a href="" class="text-decoration-none text-white">Search</a></li>
+                <li><a href="" class="text-decoration-none text-white">Account</a></li>
+                <li><a href="" class="text-decoration-none text-white">Cart (2)</a></li>
+                
+            </ul>
+            </div>
+            <div class="col-md-1  bg-dark"></div>
+        </div>
+    </div>
+</nav>
+<!-- content  -->
+ <main>
+    <section>
+        <div class="container-fluid box1 px-0">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide s1 align-content-center">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-lg">
+                                <h1 class="display-2">Shell Shape Decor</h1>
+                                <p class="fs-4 text-secondary">Buy this beautiful unique pieces of shell shape vase decors for <br> your plants of room.</p>
+                                <a href="" class="text-dark fs-5">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide s2 align-content-center">
+                    <div class="container">
+                        <div class="row  justify-content-end">
+                            <div class="col-lg-6">
+                                <h1 class="display-2">Shiny Black pot</h1>
+                                <p class="fs-4 text-secondary">Beautiful shiny black pot is designed for minimalist decors.</p>
+                                <a href="" class="text-dark fs-5" >Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide s3 align-content-center">
+                    <div class="container">
+                      <div class="row ">
+                          <div class="col-lg-6">
+                              <h1 class="display-2">Ceramis soft pot</h1>
+                              <p class="fs-4 text-secondary">This ceramic soft pot is specially designed by concept of <br>traditional designs.</p>
+                              <a href="" class="text-dark fs-5">Shop Now</a>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-pagination"></div>
+              </div>
+              <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+              <!-- Initialize Swiper -->
+              <script>
+                var swiper = new Swiper(".mySwiper", {
+                  spaceBetween: 2,
+                  centeredSlides: true,
+                  autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                  },
+                  pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                  },
+                  navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                  },
+                });
+              </script>
+            
+        </div>
+    </section>
+    <section>
+      <div class="container b1 align-content-center py-5">
+        <div class="row  justify-content-center">
+          <div class="col-md-9">
+                  <span>About us</span><br>
+                   <h1 class="display-5 "> <strong>Vaso is the only best online store for varieties  <br>of collection of clean and beautiful vases.</strong></h1><br>
+                  <p>Et id sapien id enim, sit tempor cursus elit, fusce. Nunc tristique facilisis consectetur at vivamus ut porta <br> porta. Ut nisl, tortor, aliquam blandit vitae vehicula vivamus leo nullam urna, scelerisque unc lectus  <br>phasellus adipiscing arcu. Tristique facilisis nunc consectetur at tempor cursusut porta.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+                <div class="swiper mySwiper_custom c1">
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide  d1 "></div>
+          <div class="swiper-slide  d2"></div>
+          <div class="swiper-slide  d3"></div>
+          <div class="swiper-slide  d4"></div>
+          <div class="swiper-slide d5"></div>
+          <div class="swiper-slide d6"></div>
+          <div class="swiper-slide d7"></div>
+          <div class="swiper-slide d8"></div>
+          <!-- <div class="swiper-slide">Slide 9</div> -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper_custom", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
+    </div>
+
+    </div>
+    </section>
+    <section>
+      <!-- <div class="container_fluid">
+        <div class="row">
+          <div class="col-md-2 border text-center"><p>harsh</p></div>
+          <div class="col-md-1"></div>
+          <div class="col-md-2 text-start"><p>harsh</p></div>
+          <div class="col-md-2 text-center"><p>harsh</p></div>
+          <div class="col-md-2 text-end"><p>harsh</p></div>
+          <div class="col-md-2 text-end"><p>harsh</p></div>
+          
+        </div>
+      </div> -->
+    </section>
+    <section>
+      <div class="container b1 align-content-center py-5">
+        <div class="row  justify-content-center">
+          <div class="col-md-7">
+                  <!-- <span>About us</span><br> -->
+                   <h1 class="display-5 "> <strong>What our customers says
+                  </strong></h1><br>
+                  <!-- <div class="col-md-10">
+                  <p class="fs-4">“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise tempus oncu enim pellen tesque este pretium <br>in neque, elit morbi sagittis lorem habi mattis.”</p></div> -->
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <p class="fs-4 ">“A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis lorem habi mattis.”</p></div>
+            <div class="col-md-9  text-center ">
+              <p class="me-5 fs-5" ><strong>ANNA GARCIA</strong></p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section>
+      <div class="row justify-content-evenly  mx-auto">
+        <div class="col-lg-6 f1 mb-3 align-content-end" >
+          
+           <div class="container  align-content-center">
+            <div class="row ">
+              <h1 class="display-2"> <strong>Old handmade</strong></h1>
+              <a href="" class="mb-5 pb-5 text-dark fs-4">shop now</a>
+            </div>
+           </div>
+        </div>
+        <div class="col-lg-5 border">
+          <div class="row pb-3">
+            <div class="col-md-12 f2 align-content-end">
+             
+              <div class="container  align-content-center">
+                <div class="row ">
+                  <h1 class="display-2"> Dubbel Handle</h1>
+                  <a href="" class="mb-5  text-dark fs-4">Shop collection</a>
+                </div>
+               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 f3 align-content-end">
+             
+              <div class="container  align-content-center">
+                <div class="row ">
+                  <h1 class="display-2"> pumpers</h1>
+                  <a href="" class="mb-5  text-dark fs-4">Shop collection</a>
+                </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section>
+      <div class="container_fluid g1 mt-5 text-center align-content-center">
+        <a href="#" id="pb" class="text-dark " data-bs-toggle="modal" data-bs-target="#exampleModal" ><i class="fas fa-play"></i></a>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/W_tIumKa8VY?si=hOfkCOrue7HuaBsv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container  py-5">
+        <h1 class="text-center py-3">Some FAQs</h1>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                I got my vase but some items are broken ,what to do?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Et id sapien id enim, sit tempor cursus elit, fusce. <br> Nunc tristique facilisis consectetur at vivamus ut porta porta aliquam blandit vitae <br> vehicula leo nullam urna, scelerisque unc lectus.</strong>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Can i return them if i don't like the items i bought?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Et id sapien id enim, sit tempor cursus elit, fusce. <br> Nunc tristique facilisis consectetur at vivamus ut porta porta aliquam blandit <br> vitae vehicula leo nullam urna, scelerisque unc lectus.</strong>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Will we get discount if we will order many vae?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Et id sapien id enim, sit tempor cursus elit, fusce. <br> Nunc tristique facilisis consectetur at vivamus ut porta porta aliquam blandit <br> vitae vehicula leo nullam urna, scelerisque unc lectus.</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row justify-content-evenly  mx-auto">
+        <div class="col-lg-6 f1 mb-3 align-content-end" >
+          <!-- <img src="img/11111111.jpg"  class="img-fluid"> -->
+           <div class="container  align-content-center">
+            <div class="row ">
+              <h1 class="display-2"> <strong>Old handmade</strong></h1>
+              <a href="" class="mb-5 pb-5 text-dark fs-4">shop now</a>
+            </div>
+           </div>
+        </div>
+        <div class="col-lg-5 ">
+          <div class="row pb-3">
+            <div class="col-md-12 f2 align-content-end">
+              <!-- <img src="img/22222.jpg" alt="" class="img-fluid"> -->
+              <div class="container  align-content-center">
+                <div class="row ">
+                  <h1 class="display-2"> Dubbel Handle</h1>
+                  <a href="" class="mb-5  text-dark fs-4">Shop collection</a>
+                </div>
+               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 f3 align-content-end">
+              <!-- <img src="img/33333.jpg" alt="" class="img-fluid"> -->
+              <div class="container  align-content-center">
+                <div class="row ">
+                  <h1 class="display-2"> pumpers</h1>
+                  <a href="" class="mb-5  text-dark fs-4">Shop collection</a>
+                </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ </main>
+
+ <!-- footer section  -->
+  <footer>
+    <section>
+      <div class="container py-5  border-bottom ">
+        <div class="row py-5">
+          <div class="col-md-3 border-bottom">
+            <img src="img/main-logo.png" alt="" class="pt-3"> 
+            <p class="mt-4">Nunc tristique facilisis consectetur vivamus ut porta porta aliquam vitae vehicula leo nullam urna lectus</p>
+            
+          </div>
+          <div class="col-md-3  border-bottom">
+            <h1 class="fw-light">Quick Links</h1>
+            <p>About</p>
+            <p>Shop</p>
+            <p>Contact</p>
+            <p>Account</p>
+          </div>
+          <div class="col-md-3  border-bottom">
+            <h1 class="fw-light">Contact info</h1> 
+            <p>Tea Berry, Marinette, USA</p>
+            <p>+55 111 222 333 44</p>
+            <p>yourinfo@gmail.com</p>
+          </div>
+          <div class="col-md-3 border-bottom">
+            <h1 class="fw-light " >Social info</h1> 
+            <p>You can follow us on our social platforms to get updates.</p> <br>
+            <ul class="nav gap-5 ">
+              <li ><a href="" class="text-secondary n1"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="" class="text-secondary n2"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="" class="text-secondary n3"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="" class="text-secondary n4"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="" class="text-secondary n5"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="fs-5 fw-light">© Copyright 2023 Vaso. Design by  <span><a href="" class="text-decoration-none text-dark fs-5"><strong>     TemplatesJungle</strong></a></span></p>
+        </div>
+      </div>
+    </div>
+    </section>
+  </footer>
+
+</body>
+</html>
